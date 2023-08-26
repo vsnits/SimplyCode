@@ -20,7 +20,7 @@
  example.compareto(function(a) {
    var i = 0; while(i < a) { i *= 2 }
    }, [10], [10])
- // f1.comppareto(f2, a1, a2)
+ // f1.compareto(f2, a1, a2)
  ```
  Logs the time for two functions by taking arguments as arrays.
    
