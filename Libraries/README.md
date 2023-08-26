@@ -2,12 +2,12 @@
   Some external code always under the free license
    
 # Structure
-  Libraries
-  - { name }
-   -- README.md
-   -- { version }
-    --- main.js
-    ... ?(other files)
+  Libraries <br>
+  - { name } <br>
+   -- README.md <br>
+   -- { version } <br>
+    --- main.js <br>
+    ... ?(other files) 
 
 # Connecting libraries
  Feel free to explore the libraries, modify or use in your own projects!
