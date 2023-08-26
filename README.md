@@ -11,26 +11,25 @@
    With SimplyCode! start coding right now from any device using any text format. <br>
 
 # Installation
-    With wget:
-    ```shell
-    # cd to the directory where you would have SimplyCode!
-    $ wget -r https://vsnits.github.io/SimplyCode!/
-    ```
-   Or:
-   Manually download source and unzip folder
-   Or:
+   ```shell
+  # cd to the directory where you would have SimplyCode!
+  $ wget -r https://vsnits.github.io/SimplyCode!/
+ ```
+  Or: <br>
+   Manually download source and unzip folder <br>
+  Or: <br>
    use a website (not recommended)
 
  # Setting & Running
   Run any browser, turn on JavaScript, set up privacy and downloading settings. <br>
   Open SimplyCode!/configure.js with any text editor installed and choose needed settings (pay attention on cache parameter) <br>
   Open index.html in your browser! Start coding! <br>
-  Some hot keys:
-   alt + O = open file
-   ctrl + S = save file
-   alt + Q = set tabs
-   alt + R = change theme (space to choose)
-   ctrl + Enter = run html
+  Some hot keys: <br>
+   alt + O = open file <br>
+   ctrl + S = save file <br>
+   alt + Q = set tabs <br>
+   alt + R = change theme (space to choose) <br>
+   ctrl + Enter = run html <br>
    alt + Enter = run JavaScript
 
  # Contribution Guideline
@@ -45,9 +44,9 @@
      reissue = + 1 <br>
 
  # Included libraries
-   Here is a six small libraries (go to file to read more about each)
-   * CookiePack - for private mode support when using cookies
-   * JCtab - for turning bad tabulated C-code into cool project
+   Here is a six small libraries (go to file to read more about each) <br>
+   * CookiePack - for private mode support when using cookies 
+   * JCtab - for turning bad tabulated C-code into cool project 
    * syncFetch - for broaden fetch support
    * 2Dcade - for canvases and 2d grids (in development)
    * BlobW - for operating Blob object (in development)
