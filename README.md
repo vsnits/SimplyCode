@@ -13,7 +13,7 @@
 # Installation
    ```shell
   # cd to the directory where you would have SimplyCode!
-  $ wget -r https://vsnits.github.io/SimplyCode!/
+  $ wget -r https://vsnits.github.io/SimplyCode/
  ```
   Or: <br>
    Manually download source and unzip folder <br>
