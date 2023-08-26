@@ -22,7 +22,8 @@
 
  # Setting & Running
   Run any browser, turn on JavaScript, set up privacy and downloading settings. <br>
-  Open SimplyCode!/configure.js with any text editor installed and choose needed settings (pay attention on cache parameter) <br>
+  Open `SimplyCode/configure.js` with any text editor installed, <br>
+  choose needed settings (pay attention on cache parameter) <br>
   Open index.html in your browser! Start coding! <br>
   Some hot keys: <br>
    alt + O = open file <br>
