@@ -9,7 +9,7 @@
           else if(str[i] == "\t") { tabs++ }
           else if(str[i] == " ") { spaces++ }
           }
-      if(spaces % 2 == 1) { // round valoe mod 4
+      if(spaces % 2 == 1) { // round value mod 4
           (spaces % 4 == 1)? (spaces -= 1) : (spaces += 1)
           }
       else if(spaces % 4 == 2) { // other cases already covered
