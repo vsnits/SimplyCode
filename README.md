@@ -28,6 +28,7 @@
    alt + O = open file <br>
    ctrl + S = save file <br>
    alt + Q = set tabs <br>
+   alt + P = python tabs <br>
    alt + R = change theme (space to choose) <br>
    ctrl + Enter = run html <br>
    alt + Enter = run JavaScript
