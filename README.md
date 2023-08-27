@@ -3,7 +3,7 @@
 # Intro
    SimplyCode! project is cross-platform open source code editor with No syntax correction and No highlighting! <br>
    For all programming history lovers with infinite customisation and C-orientated auto-tabulation tool. <br>
-   Written in JavaScript, a home for some JS libraries and works offline even better than as online tool. <br>
+   Written in JavaScript, a home for some JS libraries and works offline even better than online tool. <br>
 
 # Motivation 
    Code editors now weight more and more, but even less comfortable in some cases. <br>
