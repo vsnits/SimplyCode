@@ -1,5 +1,5 @@
 /* 
-    Note, wget does not captures documentation! Pleace use git clone command.
+    Note, wget do not captures documentation! Pleace use git clone command.
     Repository link for more information: https://github.com/vsnits/SimplyCode/ 
 */
   configure.cache = false
