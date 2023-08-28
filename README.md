@@ -1,14 +1,16 @@
 
 
 # Intro
-   SimplyCode! project is cross-platform open source code editor with No syntax correction and No highlighting! <br>
-   For all programming history lovers with infinite customisation and C-orientated auto-tabulation tool. <br>
-   Written in JavaScript, a home for some JS libraries and works offline even better than online tool. <br>
+   SimplyCode! is cross-platform open source code editor with No syntax correction and No highlighting! <br>
+   For computer code funs with infinite customisation and simple auto-tabulation tools included. <br>
+   Written in clear JavaScript, a home for some JS libraries and works offline even better than online tool. <br>
+   No data writing, no data collection, no code correction!
 
 # Motivation 
    Code editors now weight more and more, but even less comfortable in some cases. <br>
    The Apple's Xcode now weights nearly 7 GB and requires Apple ID registration :(? <br>
-   With SimplyCode! start coding right now from any device using any text format. <br>
+   Tired from auto-correction? Wanna control process fully yourself? <br>
+   Start coding right now from any device using any text format! <br>
 
 # Installation
    ```shell
@@ -23,13 +25,13 @@
   Run any browser, turn on JavaScript, set up privacy and downloading settings. <br>
   Open `SimplyCode/configure.js` with any text editor installed, <br>
   choose needed settings (pay attention on cache parameter) <br>
-  Open index.html in your browser! Start coding! <br>
+  Open index.html in your browser! Done! <br>
   Some hot keys: <br>
    alt + O = open file <br>
    ctrl + S = save file <br>
-   alt + Q = set tabs <br>
-   alt + P = python tabs <br>
-   alt + R = change theme (space to choose) <br>
+   alt + Q = set c / js / c++ tabs <br>
+   alt + P = correct python tabs <br>
+   alt + R = change theme; space to choose then run `computeStyle()` <br>
    ctrl + Enter = run html <br>
    alt + Enter = run JavaScript
 
@@ -45,7 +47,7 @@
      reissue = + 1 <br>
 
  # Included libraries
-   Here is a six small libraries (go to file to read more about each) <br>
+   Six small libraries in package (go to directory to read more about each) <br>
    * CookiePack - for private mode support when using cookies 
    * JCtab - for turning bad tabulated C-code into cool project 
    * syncFetch - for broaden fetch support
