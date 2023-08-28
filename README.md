@@ -1,10 +1,10 @@
 
 
 # Intro
-   SimplyCode! is cross-platform open source code editor with No syntax correction and No highlighting! <br>
+   SimplyCode! is cross-platform open source code editor without highlighting! <br>
    For computer code funs with infinite customisation and simple auto-tabulation tools included. <br>
    Written in clear JavaScript, a home for some JS libraries and works offline even better than online tool. <br>
-   No data writing, no data collection, no code correction!
+   No data writing, no data collection, no syntax correction!
 
 # Motivation 
    Code editors now weight more and more, but even less comfortable in some cases. <br>
