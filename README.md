@@ -33,9 +33,12 @@
    alt + P = correct python tabs <br>
    ctrl + Enter = run html <br>
    alt + Enter = run JavaScript <br>
-   alt + R = change theme; space to choose. <br>
-   If used `cofigure.cache = false`, then <br>
-   run `computeStyle()` and change configuration manually
+   alt + R = change theme; press space to choose. <br>
+   If used `cofigure.cache = false`, then run
+   ```js
+   computeStyle()
+   ```
+  and change configuration manually
 
  # Contribution Guideline
    Before changing files, make sure you have another copy to work in case you break the editor. <br>
