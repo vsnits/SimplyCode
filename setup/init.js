@@ -8,7 +8,7 @@
   const nmcloud = "SimpyCode!/filename/"
   const store = new CookiePack((configure.cache)? "local" : null)
   const input = document.createElement("textarea")
-  const sizeAllow = Math.pow(10,5)
+  const sizeAllow = Math.pow(10,6)
   const table = "/" + "* Empty *"  + "/"
   
   function init() {

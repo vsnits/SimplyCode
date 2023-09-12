@@ -41,7 +41,7 @@
       };
 
   function executeCode() {
-      console.log(eval(input.value))
+      console.log(eval?.(input.value))
       };
 
  

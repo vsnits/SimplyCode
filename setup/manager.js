@@ -35,7 +35,7 @@
               input.value = reader.result
               input.value = input.value        
               }
-          } else { console.warn(`Blocked >> (${file.size}) >> (${sizeAllow}) is default maximum file size`) }
+          } else { console.warn(`(${file.size}) Maiximum file size exeeded (${sizeAllow}). Pleace edit setup/init.js`) }
       };
 
  
