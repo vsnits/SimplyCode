@@ -2,8 +2,7 @@
   // keys.js
   
   document.onkeydown=function(e) {
-      if(e.code == "Space" && window.createStyle) { window.clearInterval(createStyle) }
-      else if(e.code == "Space" && e.altKey) { putInside() }
+      if(e.code == "Space" && e.altKey) { putInside() }
       else if(e.code == 'KeyS' && e.ctrlKey) { e.preventDefault(); savePage() }
       else if(e.code == 'KeyN' && e.altKey) { e.preventDefault(); newDoc(true) }
       else if(e.code == 'KeyO' && (e.ctrlKey || e.altKey)) { e.preventDefault(); pustFile() }

@@ -33,12 +33,12 @@
    alt + P = correct python tabs <br>
    ctrl + Enter = run html <br>
    alt + Enter = run JavaScript <br>
-   alt + R = change theme; press space to choose. <br>
+   alt + R = change theme (it stored in cache)
    If used `cofigure.cache = false`, then run
    ```js
    computeStyle()
    ```
-  and change configuration manually
+   Then, change configuration manually
 
  # Contribution Guideline
    Before changing files, make sure you have another copy to work in case you break the editor. <br>
@@ -52,7 +52,8 @@
      reissue = + 1 <br>
 
  # Included libraries
-   Six small libraries in package (go to directory to read more about each) <br>
+   There are seven libraries in package (go directory to read more about each) <br>
+   * Colourr - for dealing with colors
    * CookiePack - for private mode support when using cookies 
    * JCtab - for turning bad tabulated C-code into cool project 
    * syncFetch - for broaden fetch support

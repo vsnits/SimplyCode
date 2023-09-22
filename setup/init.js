@@ -12,7 +12,6 @@
   const table = "/" + "* Empty *"  + "/"
   
   function init() {
-      
       input.className = "inp"
       document.body.append(input)
       configure.gridsize = store.get(grdsize, true, configure.gridsize)
@@ -26,42 +25,37 @@
       console.log(`Top/ ${top}`)
       input.scrollTop = top
       
-      initStyle(configure.fontcolor, configure.background)
-      var gr = createBackgroundGrid(configure.gridsize, configure.gridcolor, [0,0,0,0])
-      input.style.backgroundImage = `url('${gr.src}')`
-      
+      initStyle(configure.fontcolor, configure.background, configure.gridcolor)   
       };
 
-  function stylize(font, background) {
-      var style = getComputedStyle(input)
-      font = font ? font : style.getPropertyValue("color")
-      background = background ? background : style.getPropertyValue("background-color")
-      console.log(`font: ${font}`); console.log(`background: ${background}`)
+  function stylize(font, background, gridcolor) {
+      store.set(grdcolor, gridcolor)
       store.set(fntcolor, font)
       store.set(bknd, background)
-      initStyle("rgb(102, 16, 16)", "ghostwhite")
+      initStyle(font, background, gridcolor)
       };
 
-  function initStyle(def_font, def_back) {
-      var style = ".inp { "
-      font = store.get(fntcolor); font = font ? font : def_font
-      style +=  ("color: " + font + ";")
-      back = store.get(bknd); back = back ? back : def_back
-      style += ("background-color: " + back + ";")
-      var tag = document.createElement("style")
-      var lasttag = document.getElementById("inpstyle")
-      tag.id = "inpstyle"
-      tag.innerHTML = style + " }"
-      if(lasttag) { document.head.removeChild(lasttag) }
-      document.head.append(tag)
+  function initStyle(font, back, gridcolor) {
+      gsize = configure.gridsize
+
+      input.style.padding = 2*gsize-2
+      input.style.color = font
+      input.style.backgroundColor = back
+   
+      var gr = createBackgroundGrid(gsize, gridcolor, [0,0,0,0])
+      input.style.backgroundImage = `url('${gr.src}')`
+
       };
 
   function randomStyle() {
-      function rand() { return Math.ceil(Math.random()*255) }
-      window.createStyle = setInterval(function() {
-          var set = [rand(), rand(), rand()]
-          stylize(`rgb(${rand()}, ${rand()}, ${rand()})`, `rgb(${rand()}, ${rand()}, ${rand()})`)
-          }, 1450)
+
+      pair = hexpair()
+      bw = invertColor(pair[1], true) // or zero not matters
+ 
+      gr = hextorgb(bw, false); gr.push(20)
+
+      stylize(hextorgb(pair[0]), hextorgb(pair[1]), gr)
+
       };
 
   let loaded = false
@@ -72,7 +66,7 @@
       };
 
   window.onresize=function() {
-      input.style.width = (innerWidth+4) + "px"
+      input.style.width = (innerWidth+8) + "px"
       input.style.height = (innerHeight+8) + "px"
       };
 
