@@ -85,15 +85,15 @@
       if(r[r.length-1] != "\n") { r = r + "\n" }
       var scsf = true
       if(intx) { console.error(`Probably ${intx} quote was missed`); scsf = false }
-      if(cmt == "long") { console.error(`Long comment was not closed`); scsf = false }
+      if(cmt == "long") { console.error(`Long comment was never closed`); scsf = false }
       if(stage < 0) { console.error(`${-stage} quote(s) { probably should be added`); scsf = false }
       if(quote > 0) { console.error(`${quote} quote(s) ( probably missed`); scsf = false }
       if(quote < 0) { console.error(`${-quote} quote(s) ) probably should be added`); scsf = false }
-      if(r.search(("</scr" + "ipt>")) != -1) {
-          console.warn(`Don't mix JavaScript with DOM content. Always separate files.`)
+      if(r.includes("</scr" + "ipt>") || r.includes("</style>")) {
+          console.warn(`Don't mix tags! This may result tag soup..`)
           console.info(`Division accesses to build larger projects.`); scsf = false
           }
-      console.log(`JStab work completed with ${r.length} symbols (${scsf ? "successful" : "with exceptions"})`)
+      console.log(`JStab work done with ${r.length} symbols (${scsf ? "successful" : "with exceptions"})`)
       return r
       };
 
