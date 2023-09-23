@@ -10,7 +10,7 @@
       else if(e.key == 'Enter' && e.ctrlkey) { e.preventDefault(); executeCode() }
       else if(e.code == "KeyI" && (e.ctrlKey || e.altKey)) { e.preventDefault(); uploadText() }
       else if(e.code == 'KeyQ' && e.altKey) { e.preventDefault(); input.value = JCtab(input.value, 4, 2) }
-      else if(e.code == 'KeyA' && e.altKey) { e.preventDefault(); input.value = JCtab(input.value, 4, 2, "\n\n") }
+      else if(e.code == 'KeyA' && e.altKey) { e.preventDefault(); input.value = JCtab(input.value, 4, 2, "\n\n ") }
       else if(e.key == 'Enter') { e.preventDefault(); pustText(input,"\n" + "   ",0)  }
       else if(e.key == 'Tab') { e.preventDefault(); pustText(input, "    ",0) }
       else if(e.code == "KeyR" && e.altKey) { e.preventDefault(); randomStyle() }
