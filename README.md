@@ -30,7 +30,7 @@
    alt + O = open file <br>
    ctrl + S = save file <br>
    alt + Q = set c / js / c++ tabs <br>
-   alt + A = set CSS tabs
+   alt + A = set CSS tabs <br>
    alt + P = correct python tabs <br>
    ctrl + Enter = run JavaScript <br>
    ctrl + alt + Enter = run html <br>
