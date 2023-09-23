@@ -9,7 +9,7 @@
 # Motivation 
    Code editors now weight more and more, but even less comfortable in some cases. <br>
    The Apple's Xcode now weights nearly 7 GB and requires Apple ID registration :(? <br>
-   Tired from auto-correction? Wanna control process fully yourself? <br>
+   Tired from auto-correction? Wanna control everything yourself? Welcome! <br>
    Start coding right now from any device using any text format! <br>
 
 # Installation
