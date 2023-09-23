@@ -34,7 +34,7 @@
    alt + P = correct python tabs <br>
    ctrl + Enter = run JavaScript <br>
    ctrl + alt + Enter = run html <br>
-   alt + R = change theme (stored in cache)
+   alt + R = change theme (stored in cache) <br>
    If used `cofigure.cache = false`, then run
    ```js
    computeStyle()
@@ -57,7 +57,7 @@
    * Colourr - for dealing with colors
    * CookiePack - for private mode support when using cookies 
    * JCtab - for turning bad tabulated C-code into cool project 
-   * syncFetch - for broaden fetch support
+   * syncFetch - broaden fetch tools
    * 2Dcade - for canvases and 2d grids (in development)
    * BlobW - for operating Blob object (in development)
    * Comparelib - for code speed comparison (in development)
