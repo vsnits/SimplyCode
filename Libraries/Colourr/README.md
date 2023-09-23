@@ -20,15 +20,15 @@
  ```
 
 # Contribution
-  It's not easy to add new functions to this lirary, but would be nice if you do.
+  It's not easy to add new functions to this lirary, but would be nice if you do. <br>
   Anyway, follow the common contribution guideline.
 
 # Acknowledgements
 
-@ Tim Down
-@ clayzermk1
-@ Onur Yıldırım
-@ Martin Delille
+@ Tim Down <br>
+@ clayzermk1 <br>
+@ Onur Yıldırım <br>
+@ Martin Delille <br>
 
 # Licence
   The Unlicense
