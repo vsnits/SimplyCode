@@ -30,10 +30,11 @@
    alt + O = open file <br>
    ctrl + S = save file <br>
    alt + Q = set c / js / c++ tabs <br>
+   alt + A = set CSS tabs
    alt + P = correct python tabs <br>
-   ctrl + Enter = run html <br>
-   alt + Enter = run JavaScript <br>
-   alt + R = change theme (it stored in cache)
+   ctrl + Enter = run JavaScript <br>
+   ctrl + alt + Enter = run html <br>
+   alt + R = change theme (stored in cache)
    If used `cofigure.cache = false`, then run
    ```js
    computeStyle()
