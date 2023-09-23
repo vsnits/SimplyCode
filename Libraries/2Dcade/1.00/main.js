@@ -7,7 +7,7 @@
       canvas.height = width
       let imageData = ctx.getImageData(0, 0, width, width)
       function st(x) {
-          if( x % width == 0) { return true }
+          if( x % width == 0 ) { return true }
           else if( x > width*(width-1) ) { return true }
           };
       ctx.putImageData(setImage(imageData, color, background, st), 0, 0)

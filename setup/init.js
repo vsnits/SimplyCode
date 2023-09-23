@@ -42,7 +42,7 @@
       input.style.color = font
       input.style.backgroundColor = back
    
-      var gr = createBackgroundGrid(gsize, gridcolor, [0,0,0,0])
+      var gr = createBackgroundGrid(gsize, gridcolor, [0,0,0,0], true)
       input.style.backgroundImage = `url('${gr.src}')`
 
       };
@@ -52,9 +52,9 @@
       pair = hexpair()
       bw = invertColor(pair[1], true) // or zero not matters
  
-      gr = hextorgb(bw, false); gr.push(20)
+      gr = hextorgb(bw, false); gr.push(configure.gridcolor[3])
 
-      stylize(hextorgb(pair[0]), hextorgb(pair[1]), gr)
+      stylize(pair[0], pair[1], gr)
 
       };
 
