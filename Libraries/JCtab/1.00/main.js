@@ -1,6 +1,6 @@
 "use strict";
 
-  const JCtab = function(text, gap=4, left=2, separator=";\n\n") {
+  const JCtab = function(text, gap, left, separator=";\n\n") {
       text = (text[0] == "\n")  ? text : ("\n" + text)
       text = text + separator
       console.log(`JStab work started with ${text.length} symbols`)
