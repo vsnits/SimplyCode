@@ -7,8 +7,8 @@
       configure.cacheonfocus = false
       configure.gridsize = 18
       configure.gridcolor = [120,120,120,40] 
-      configure.background = "rgb(195, 192, 168)"
-      configure.fontcolor = "rgb(60, 63, 87)"
+      configure.background = "rgb(239, 223, 160)"
+      configure.fontcolor = "rgb(16, 32, 95)"
       
 
       
