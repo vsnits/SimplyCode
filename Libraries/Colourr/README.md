@@ -1,6 +1,6 @@
 
 # Colourr
- Library to deal with colors
+ Simple library to deal with colors
 
 # Guide
  A list of functions:
@@ -24,12 +24,13 @@
   Anyway, follow the common contribution guideline.
 
 # Acknowledgements
+> Wonderful people from stackoverflow
 
 @ Tim Down <br>
 @ clayzermk1 <br>
 @ Onur Yıldırım <br>
 @ Martin Delille <br>
 
-# Licence
+# License
   The Unlicense
 
