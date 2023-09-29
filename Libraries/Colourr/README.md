@@ -1,6 +1,6 @@
 
 # Colourr
- Small library to deal with colors
+ Nice library to deal with colors
 
 # Guide
  A list of functions:
