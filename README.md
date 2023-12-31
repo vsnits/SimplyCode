@@ -1,4 +1,10 @@
 
+# !
+# Not active brunch
+# For recent changes refer
+# github.com/vsnits
+# 
+# 
 
 # Intro
    SimplyCode! is cross-platform open source code editor without highlighting! <br>
